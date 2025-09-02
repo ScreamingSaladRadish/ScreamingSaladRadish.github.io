@@ -9,6 +9,7 @@ background: linear-gradient(135deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 
   font-family: "Oswald", sans-serif;
   font-weight: 200;
  color: white;
+text-decoration: none;
 }
 
 
@@ -27,4 +28,7 @@ a {
 a:visited {
  text-decoration: line-through;
  color: rgba (225,255,255,.5); 
+}
+a:hover {
+ text-decoration: underline;
 }
