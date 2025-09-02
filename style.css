@@ -7,6 +7,7 @@ background: linear-gradient(135deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 
  background-size: cover; /* stretch to fill screen */
  font-family: .oswald-<uniquifier> {
   font-family: "Oswald", sans-serif;
+  font-weight: 100;
  color: white;
 }
 
