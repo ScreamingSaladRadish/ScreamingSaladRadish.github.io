@@ -1,5 +1,13 @@
 body {
-  background-color: #5D2983;
-  background-image: url('images/Lizard.jpg');
-  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(
+    to bottom,
+    #87CEFA 0%,    /* Sky Blue */
+    #00BFFF 25%,   /* Deep Sky Blue (ocean top) */
+    #20B2AA 50%,   /* Light Sea Green (ocean bottom) */
+    #FAD6A5 75%,   /* Peach (sand transition) */
+    #FFE4B5 100%   /* Moccasin (beach sand) */
+  );
+  font-family: sans-serif;
 }
