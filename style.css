@@ -3,8 +3,15 @@
 body {
  background: #22C1C3;
 background: linear-gradient(135deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
- background-repeat: no-repeat; /* no tiling */
- background-size: cover; /* stretch to fill screen */
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: "Oswald", sans-serif;
+      font-weight: 200;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      min-height: 100vh; /* Ensures gradient covers entire viewport */
   font-family: "Oswald", sans-serif;
   font-weight: 200;
  color: white;
