@@ -11,7 +11,8 @@ background: linear-gradient(135deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 
  color: white;
 text-decoration: none;
 }
-
+ display: flex;
+    flex-direction: row;
 
 
 
@@ -31,4 +32,24 @@ a:visited {
 }
 a:hover {
  text-decoration: underline;
+}
+ section.main {
+    width: 75%;
+  }
+
+  aside {
+    width: 25%;
+  }
+}
+
+/* Layout for smaller screens (default) */
+@media (max-width: 767px) {
+  body {
+    display: block;
+  }
+
+  section.main,
+  aside {
+    width: 100%;
+  }
 }
