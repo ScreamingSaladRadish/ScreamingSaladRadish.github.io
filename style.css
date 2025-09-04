@@ -11,7 +11,7 @@ background: linear-gradient(135deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 
       text-decoration: none;
       display: flex;
       flex-direction: row;
-      min-height: 100vh; /* Ensures gradient covers entire viewport */
+      min-height: 100vh;
   font-family: "Oswald", sans-serif;
   font-weight: 200;
  color: white;
