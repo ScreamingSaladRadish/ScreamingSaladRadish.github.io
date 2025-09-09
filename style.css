@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Oswald:wght@200..700&display=swap');
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Oswald:wght@200..700&display=swap');
+</style>
 body {
   background-color: #3B1470;
   }
       background-repeat: no-repeat;
       background-size: cover;
       font-family: "Oswald", sans-serif;
+      font-optical-sizing: auto;
       font-weight: 200;
-      color: white;
+      font-style: normal;
+}
       text-decoration: none;
       display: flex;
       flex-direction: row;
@@ -28,7 +35,11 @@ text-decoration: none;
 
 
 h1, h2, h3, h4, h5, h6 {
- font-family: "asimovian-regular", "Comic Sans, sans-serif; 
+        .asimovian-regular {
+ font-family: "Asimovian" , sans-serif;
+          font-weight: 400;
+          font-style: normal;
+        
 }
 
 a { 
