@@ -1,33 +1,26 @@
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
-</style>
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Oswald:wght@200..700&display=swap');
-</style>
 body {
   background-color: #3B1470;
-  }
+  
       background-repeat: no-repeat;
       background-size: cover;
       font-family: "Oswald", sans-serif;
       font-optical-sizing: auto;
       font-weight: 200;
       font-style: normal;
-}
+
       text-decoration: none;
       display: flex;
       flex-direction: row;
       min-height: 100vh;
   font-family: "Oswald", sans-serif;
-  font-weight: 200;
  color: white;
 text-decoration: none;
  height: 100%;
   margin: 0;
   padding: 0;
- display: flex;
-    flex-direction: row;
+ 
 }
 
 
@@ -35,7 +28,7 @@ text-decoration: none;
 
 
 h1, h2, h3, h4, h5, h6 {
-        .asimovian-regular {
+  
  font-family: "Asimovian" , sans-serif;
           font-weight: 400;
           font-style: normal;
@@ -48,27 +41,24 @@ a {
 
 a:visited {
  text-decoration: line-through;
- color: rgba (225,255,255,.5); 
+ color: rgba(225,255,255,.5); 
 }
 a:hover {
  text-decoration: underline;
 }
  section.main {
     width: 75%;
-  background: body {
   background-color: #3B1470;
-}
   border-radius: 24px;
   }
 
   aside {
     width: 25%;
    min-width: 200px;
-   background: #f5d442
+   background: #f5d442;
     border-radius: 24px;
    
   }
-}
 
 /* Layout for smaller screens (default) */
 @media (max-width: 767px) {
