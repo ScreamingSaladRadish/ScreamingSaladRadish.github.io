@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Oswald:wght@200..700&display=swap');
 
 body {
- background: #22C1C3;
-background: linear-gradient(135deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+<title>Sunset Gradient Background</title>
+<style>
+  body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
       background-repeat: no-repeat;
       background-size: cover;
       font-family: "Oswald", sans-serif;
