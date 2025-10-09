@@ -27,7 +27,8 @@ margin: 0;
 }
   background-image: url('images/contactbg.jpg');
 body#home {
-background-image: url('images/homebg.jpg');
+background-image: url('/images/homebg.jpg');
+
 }
 
 body#about {
