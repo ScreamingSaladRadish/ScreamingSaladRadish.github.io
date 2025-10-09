@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Fuzzy+Bubbles:wght@400;700&family=Unlock&display=swap');
 
 
-.fredoka-<uniquifier> {
+body {
   font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "width" 100;
++ color: #ffffff;
+  margin: 0;
+  height: 100%;
+  background-size: cover;
 }
 
 .unlock-regular {
@@ -26,7 +25,7 @@ margin: 0;
   background-repeat: no-repeat;     /* no tiling */
   background-attachment: fixed;     /* stays fixed while content scrolls */
 }
-
+  background-image: url('images/contactbg.jpg');
 body#home {
 background-image: url('images/homebg.jpg');
 }
