@@ -18,6 +18,7 @@
 
 body {
 font-family: "Fredoka", sans-serif;
+color: #ffffff;
 margin: 0;
   height: 100%;
   background-size: cover;           /* fills screen */
@@ -38,6 +39,60 @@ body#contact {
 background-image: url('images/contactbg.jpg');
 }
 
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+}
+
+nav a.nav-item {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
 nav a.nav-item img {
-width: 400px;
+  width: 300px;         /* fixed rendered width */
+  height: 300px;        /* fixed rendered height to match width */
+  object-fit: cover;    /* fills the box and crops if needed */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  display: block;       /* removes inline gaps under images */
+}
+
+nav a.nav-item:hover img {
+  transform: scale(1.05);
+}
+
+nav a.nav-item h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 900px) {
+  nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    grid-template-columns: 1fr;
+  }
+
+  nav a.nav-item img {
+    width: 100%;
+    height: auto;       /* prevent overflow on tiny screens */
+    aspect-ratio: 1 / 1;
+  }
+}
+
+img.logo {
+max-width:40vw;
+margin-left: 50vw;
+margin-top: 3vh;
 }
