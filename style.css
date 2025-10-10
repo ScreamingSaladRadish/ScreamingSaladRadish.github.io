@@ -25,16 +25,16 @@ margin: 0;
   background-repeat: no-repeat;     /* no tiling */
   background-attachment: fixed;     /* stays fixed while content scrolls */
 }
-body#home {
+#home body {
 background-image: url('images/homebg.jpg');
 
 }
 
-body#about {
+#home about {
 background-image: url('images/aboutbg.png');
 }
 
-body#contact {
+#home contact {
 background-image: url('images/contactbg.jpg');
 }
 
