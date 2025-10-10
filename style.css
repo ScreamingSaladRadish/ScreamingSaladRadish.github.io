@@ -25,7 +25,6 @@ margin: 0;
   background-repeat: no-repeat;     /* no tiling */
   background-attachment: fixed;     /* stays fixed while content scrolls */
 }
-  background-image: url('images/contactbg.jpg');
 body#home {
 background-image: url('images/homebg.jpg');
 
