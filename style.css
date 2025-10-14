@@ -89,10 +89,11 @@ nav a.nav-item h3 {
   }
 }
 
-img.logo.png {
+img.logo {
 max-width:40vw;
 margin-left: 50vw;
 margin-top: 3vh;
+url('images/logo.png')
 }
 .about-page {
   background-image: url('images/aboutbg.png'); 
