@@ -89,26 +89,24 @@ nav a.nav-item h3 {
   }
 }
 
-img.logo {
+img.logo.png {
 max-width:40vw;
 margin-left: 50vw;
 margin-top: 3vh;
 }
 .about-page {
-  background-image: url('../images/aboutbg.png'); /* Update path and filename */
+  background-image: url('images/aboutbg.png'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color: white; /* Make text visible on dark backgrounds */
   padding: 20px;
 }
 .contact-page {
-  background-image: url('../images/contactbg.png');
+  background-image: url('images/contactbg.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  color: white;
   padding: 20px;
 }
