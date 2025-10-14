@@ -103,10 +103,26 @@ margin-top: 3vh;
   padding: 20px;
 }
 .contact-page {
-  background-image: url('images/Octopustenicles2.jpg');
+  background-color:#B62A67;
+  .page-container {
+  display: flex;
+  min-height: 100vh; /* full height */
+}
+
+.sidebar {
+  width: 300px; /* adjust as needed */
+  background-image: url('../images/Octopustenticles2.jpg'); /* your image path */
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+  background-color: #f4f4f4; /* optional */
+}
+
   background-color:#B62A67
   min-height: 100vh;
   padding: 20px;
