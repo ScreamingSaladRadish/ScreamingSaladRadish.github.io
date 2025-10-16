@@ -22,7 +22,35 @@
   background-size: cover;       /* Makes sure the image covers the whole area */
   background-repeat: no-repeat; /* Prevents repeating */
   background-position: center;  /* Centers the image */
-  /* Optional: add a fallback background color */
-  background-color: #f0f0f0;
 }
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+    .portfolio-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Portfolio</h1>
+  <div class="portfolio-grid">
+    <img src="images/project1.jpg" alt="Project 1" />
+    <img src="images/project2.jpg" alt="Project 2" />
+    <img src="images/project3.jpg" alt="Project 3" />
+    <img src="images/project4.jpg" alt="Project 4" />
+  </div>
+</body>
+</html>
 
