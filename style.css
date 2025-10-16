@@ -106,24 +106,41 @@ margin-top: 3vh;
   background-color:#B62A67;
   .page-container {
   display: flex;
-  min-height: 100vh; /* full height */
-}
-
-.sidebar {
-  width: 300px; /* adjust as needed */
-  background-image: url('../images/Octopustenticles2.jpg'); /* your image path */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.main-content {
-  flex: 1;
-  padding: 40px;
-  background-color: #f4f4f4; /* optional */
-}
-
-  background-color:#B62A67
   min-height: 100vh;
-  padding: 20px;
 }
+
+<head>
+  <title>Image on Left with Background</title>
+  <style>
+    body {
+      margin: 0;
+      background-image: url('background.jpg'); /* Replace with your background */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: sans-serif;
+    }
+
+    .left-image {
+      position: absolute;
+      top: 50px;
+      left: 20px;
+      width: 200px; /* Adjust as needed */
+      height: auto;
+    }
+
+    .content {
+      margin-left: 250px; /* Push content to the right of the image */
+      padding: 20px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Left Side Image -->
+  <img src="Octopus tenticles2.jpg" alt="Left Side" class="left-image">
+
+
+</body>
+</html>
