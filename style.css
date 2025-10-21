@@ -121,14 +121,6 @@ margin-top: 3vh;
       font-family: sans-serif;
     }
 
-    .left-image {
-      position: absolute;
-      top: 50px;
-      left: 20px;
-      width: 200px; 
-      height: auto;
-    }
-
     .content {
       margin-left: 250px; 
       padding: 20px;
@@ -137,8 +129,6 @@ margin-top: 3vh;
   </style>
 </head>
 <body>
+<html>
 
-  <!-- Left Side Image -->
-  <img src="Octopus tenticles2.jpg" alt="Left Side" class="left-image">
-</body>
-</html>
+
