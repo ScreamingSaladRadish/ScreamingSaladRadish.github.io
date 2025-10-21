@@ -5,9 +5,56 @@
   <title>Contact Me</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
+   <style>
     html, body {
       height: 100%;
       margin: 0;
+    }
+
+    body {
+      background-image: url('images/contactbg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /* Optional: Add a default font color */
+      color: #333; 
+    }
+
+    /* Centering Block Elements (The Content Containers) */
+    .content-container, #contact-me {
+      width: 90%; /* Adjust as desired */
+      max-width: 700px; /* Prevents it from getting too wide on large screens */
+      margin: 20px auto; /* Centers the block horizontally and adds vertical space */
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    }
+
+    /* Centering Inline Text within the Containers */
+    .content-container, #contact-me {
+      text-align: center; /* Centers text, headings, and inline elements */
+    }
+
+    /* Adjust list alignment if you centered the text in the parent */
+    #contact-me ul {
+        /* This centers the ul block itself (assuming text-align: center on the parent) */
+        display: inline-block; 
+        text-align: left; /* Aligns the list items back to the left within the centered ul */
+    }
+
+    /* Navbar styling is likely in style.css, but this ensures it doesn't interfere */
+    .navbar ul {
+        list-style: none; /* Removes bullet points */
+        padding: 0;
+        text-align: center; /* Centers the links if they are inline */
+    }
+
+    .navbar li {
+        display: inline;
+        margin: 0 10px;
+    }
+</style>
     }
 
     body {
