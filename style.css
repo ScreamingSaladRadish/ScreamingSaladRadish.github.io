@@ -134,8 +134,7 @@ margin-top: 3vh;
 /* === Contact Page Content Layout === */
 .content-container {
   max-width: 600px;
-  margin-left: auto;
-  margin-right: 50px;
+  margin: 50px auto;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
