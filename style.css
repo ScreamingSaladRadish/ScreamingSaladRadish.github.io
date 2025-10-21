@@ -8,12 +8,7 @@ body {
   height: 100%;
   background-size: cover;
 }
-.content-container {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: 50px;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 20px;
+
 }
 .unlock-regular {
   font-family: "Unlock", serif;
@@ -136,5 +131,14 @@ margin-top: 3vh;
 </head>
 <body>
 <html>
+/* === Contact Page Content Layout === */
+.content-container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
 
 
