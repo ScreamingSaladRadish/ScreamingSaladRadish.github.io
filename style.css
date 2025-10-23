@@ -9,7 +9,6 @@ body {
   background-size: cover;
 }
 
-}
 .unlock-regular {
   font-family: "Unlock", serif;
   font-weight: 400;
@@ -41,7 +40,6 @@ background-image: url('images/contactbg.jpg');
   font-weight: 400;
   font-style: normal;
 }
-
 
 nav {
   display: grid;
@@ -81,7 +79,7 @@ nav a.nav-item h3 {
   nav {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+
 
 @media (max-width: 600px) {
   nav {
@@ -93,7 +91,6 @@ nav a.nav-item h3 {
     height: auto;       /* prevent overflow on tiny screens */
     aspect-ratio: 1 / 1;
   }
-}
 
 img.logo {
 max-width:40vw;
