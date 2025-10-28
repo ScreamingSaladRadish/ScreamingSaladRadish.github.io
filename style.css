@@ -1,147 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Fuzzy+Bubbles:wght@400;700&family=Unlock&display=swap');
-
 
 body {
-  font-family: "Fredoka", sans-serif;
-+ color: #ffffff;
-  margin: 0;
-  height: 100%;
-  background-size: cover;
+    font-family: "Fredoka", sans-serif;
+    color: #ffffff;
+    margin: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .unlock-regular {
-  font-family: "Unlock", serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Unlock", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-body {
-font-family: "Fredoka", sans-serif;
-color: #ffffff;
-margin: 0;
-  height: 100%;
-  background-size: cover;           /* fills screen */
-  background-position: center;      /* centers image */
-  background-repeat: no-repeat;     /* no tiling */
-  background-attachment: fixed;     /* stays fixed while content scrolls */
-
+.gravitas-one-regular {
+    font-family: "Gravitas One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+/* === 2. Page Specific Backgrounds === */
 body#home {
-background-image: url('images/homebg.jpg');
+    background-image: url('images/homebg.jpg');
 }
 
 body#about {
-background-image: url('images/aboutbg.png');
+    background-image: url('images/aboutbg.png');
 }
 
 body#contact {
-background-image: url('images/contactbg.jpg');
-  .gravitas-one-regular {
-  font-family: "Gravitas One", serif;
-  font-weight: 400;
-  font-style: normal;
+    background-image: url('images/contactbg.jpg');
 }
 
-  
+/* === 3. Navigation Styles === */
 nav {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  justify-items: center;
-  align-items: center;
-  padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
 }
 
 nav a.nav-item {
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 nav a.nav-item img {
-  width: 300px;         /* fixed rendered width */
-  height: 300px;        /* fixed rendered height to match width */
-  object-fit: cover;    /* fills the box and crops if needed */
-  border-radius: 8px;
-  transition: transform 0.3s ease;
-  display: block;       /* removes inline gaps under images */
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    display: block;
 }
 
 nav a.nav-item:hover img {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 nav a.nav-item h3 {
-  margin-top: 10px;
-  font-size: 1.2rem;
+    margin-top: 10px;
+    font-size: 1.2rem;
 }
 
-/* Responsive breakpoints */
-@media (max-width: 900px) {
-  nav {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* === 4. PORTFOLIO GRID STYLES (NEW SECTION) === */
 
+/* Define the Grid Container */
+.portfolio-grid {
+    display: grid;
+    /* 3 columns on desktop */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px; /* Optional: Add padding around the grid */
+    max-width: 900px; /* Optional: Keep it constrained like your 'main' element */
+    margin: 20px auto; /* Optional: Center the grid on the page */
+}
 
-@media (max-width: 600px) {
-  nav {
-    grid-template-columns: 1fr;
-  }
+/* Style for the images inside the grid */
+.portfolio-grid img {
+    /* Fills 100% of the smaller grid column width */
+    width: 100%; 
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    object-fit: cover;
+}
 
-  nav a.nav-item img {
-    width: 100%;
-    height: auto;       /* prevent overflow on tiny screens */
-    aspect-ratio: 1 / 1;
-  }
-
+/* === 5. Layout and Content Styles === */
 img.logo {
-max-width:40vw;
-margin-left: 50vw;
-margin-top: 3vh;
+    max-width: 40vw;
+    margin-left: 50vw;
+    margin-top: 3vh;
 }
+
 .about-page {
-  background-image: url('images/aboutbg.png'); 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  padding: 20px;
+    background-image: url('images/aboutbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 20px;
 }
+
 .contact-page {
-  background-color:#B62A67;
-  .page-container {
-  display: flex;
-  min-height: 100vh;
+    background-color: #B62A67;
 }
 
-<head>
-  <title>Image on Left with Background</title>
-  <style>
-    body {
-      margin: 0;
-      background-image: url('contactbg.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      font-family: sans-serif;
-    }
+.page-container {
+    display: flex;
+    min-height: 100vh;
+}
 
-    .content {
-      margin-left: 250px; 
-      padding: 20px;
-      color: white;
-    }
-  </style>
-</head>
-<body>
-<html>
-/* === Contact Page Content Layout === */
 .content-container {
-  max-width: 600px;
-  margin: 50px auto;
-  background-color: rgba(255, 255, 255, 0.0);
-  padding: 20px;
-  border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.0);
+    padding: 20px;
+    border-radius: 10px;
 }
 
+/* === 6. Responsive Breakpoints (Media Queries) === */
 
+/* Tablet/Small Desktop Breakpoints */
+@media (max-width: 900px) {
+    /* Navigation changes to 2 columns */
+    nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Portfolio Grid changes to 2 columns (recommended) */
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+/* Mobile Breakpoints */
+@media (max-width: 600px) {
+    /* Navigation changes to 1 column */
+    nav {
+        grid-template-columns: 1fr;
+    }
+
+    nav a.nav-item img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    
+    /* Portfolio Grid changes to 1 column */
+    .portfolio-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+/* Inline Styles from HTML Head (Should be moved to main CSS if possible) */
+/* This section appears to be a mix of CSS and HTML from your previous paste. */
+/* If this was in your <style> block in the <head>, it should be integrated above. */
+/* body { 
+     margin: 0;
+     background-image: url('contactbg.jpg');
+     ... 
+   } 
+*/
