@@ -33,6 +33,8 @@ body#about {
 
 body#contact {
     background-image: url('images/contactbg.jpg');
+body#portfolio {
+    background-image: url('images/portfoliobg.jpg');
 }
 
 /* === 3. Navigation Styles === */
